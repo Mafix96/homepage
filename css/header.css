@@ -1,0 +1,14 @@
+/* plik header.css */
+.header {
+    background-color: rgb(94, 31, 153);
+    margin: auto;
+    margin-top: 15px;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    padding: 5px;
+}
+
+.header--strong {
+    font-size: 32px;
+    color: azure;
+}

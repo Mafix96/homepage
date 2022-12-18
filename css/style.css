@@ -1,0 +1,29 @@
+/* plik style.css */
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    background-color: #afabab;
+    text-align: center;
+    margin: auto;
+    max-width: 1000px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.js-check {
+    color: black;
+}
+
+.js-changeJob {
+    color: black;
+    text-decoration: none;
+}
+
+.js-hide {
+    visibility: hidden;
+}

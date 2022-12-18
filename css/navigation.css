@@ -1,0 +1,38 @@
+/* plik navigation.css */
+.navigation {
+    text-align: center;
+    border: solid 2px rgb(94, 31, 153);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-size: 18px;
+}
+
+.navigation__list {
+    margin: auto;
+    list-style: none;
+}
+
+.navigation__item {
+    font-style: italic;
+    margin: 5px 20px;
+    display: inline-block;
+}
+
+.navigation__link {
+    color: rgb(94, 31, 153);
+    text-decoration: none;
+}
+
+.navigation__link:focus {
+    outline: 2px dashed rgb(92, 91, 91);
+}
+
+.navigation__link:hover {
+    color: azure;
+    border-bottom: 1px solid azure;
+    outline: none;
+}
+
+.navigation__link:active {
+    color: brown;
+}

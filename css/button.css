@@ -1,0 +1,10 @@
+/* plik button.css */
+button {
+    height: 40px;
+    margin-top: 10px;
+    background-color: rgb(115, 82, 146);
+}
+
+.button:hover {
+    background-color: rgb(93, 91, 94);
+}

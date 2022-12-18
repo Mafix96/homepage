@@ -1,0 +1,44 @@
+/* plik table.css */
+.table {
+    border-collapse: collapse;
+    width: 75%;
+    margin: auto;
+    margin-bottom: 15px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.719);
+}
+
+tbody:hover td[rowspan],
+tr:hover td {
+    background-color: rgba(94, 31, 153, 0.582);
+}
+
+.table__caption {
+    caption-side: bottom;
+    text-align: right;
+    margin-top: 10px;
+}
+
+.table__header {
+    background-color: rgb(94, 31, 153);
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.table__row {
+    padding: 5px;
+    margin: 5px;
+}
+
+.table__row--Header {
+    background-color: rgba(252, 250, 255, 0.815);
+    color: black;
+    text-align: left;
+    font-weight: normal;
+}
+
+.table__cell {
+    border: 2px solid black;
+    padding: 10px;
+}

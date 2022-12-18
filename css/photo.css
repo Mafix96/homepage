@@ -1,0 +1,22 @@
+/* plik photo.css */
+.photoSeaman {
+    height: auto;
+    width: 40%;
+    border-radius: 150px;
+    margin-left: 45px;
+    padding: 5px;
+    visibility: visible;
+}
+
+.photoSurveyor {
+    height: auto;
+    width: 40%;
+    border-radius: 150px;
+    margin-left: 45px;
+    padding: 5px;
+}
+
+.photoProgrammer {
+    width: 300px;
+    border-radius: 150px;
+}

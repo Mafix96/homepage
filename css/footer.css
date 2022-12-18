@@ -1,0 +1,11 @@
+/* plik footer.css */
+.footer {
+    background-color: rgb(94, 31, 153);
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    border-radius: 40px 20px;
+    padding: 20px;
+    text-align: right;
+    color: aliceblue;
+}

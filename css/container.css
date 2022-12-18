@@ -1,0 +1,33 @@
+/* plik container.css */
+.container {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    border: 2px rgb(94, 31, 153) dashed;
+}
+
+.container__text--width {
+    width: 40%;
+}
+
+.container--underline {
+    font-size: 16px;
+    text-decoration: underline;
+    text-underline-position: below;
+    color: rgb(94, 31, 153);
+}
+
+.container__table {
+    overflow: auto;
+}
+
+.container--purpleBreak {
+    background-color: rgb(94, 31, 153);
+    color: aliceblue;
+    border-radius: 15px;
+}
+
+.container--flex {
+    display: flex;
+    margin-left: 15%;
+}

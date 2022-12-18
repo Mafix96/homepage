@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strona domowa Maciej Kiałka</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/container.css" rel="stylesheet">
+    <link href="css/button.css" rel="stylesheet">
+    <link href="css/photo.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+        integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;1,500&display=swap"
+        rel="stylesheet">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body class="body">
+    <header class="header">
+        <h1 class="header--strong">Witaj na mojej stronie domowej</h1>
+    </header>
+    <nav class="navigation">
+        <ul class="navigation__list">
+            <li class="navigation__item"><a class="navigation__link" href="#O-mnie-historia">O mnie - wstęp</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="#O-mnie-aktualnie">O mnie - obecnie</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="#zabawy-JS">Zabawy z JSem</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="#tabela-góry">Moja pasja - góry</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="O-mnie">
+            <article id="O-mnie-historia">
+                <h2>Parę słów o mnie:</h2>
+                <p>Nazywam się <strong>Maciej Kiałka</strong> jestem zawodowym geodetą i właśnie rozpocząłem
+                    moją
+                    przygodę z kursem
+                    programowania.
+                </p>
+                <div class="container">
+                    <h3>Matura i co dalej?</h3>
+                    <div class="container--flex">
+                        <p class="container__text--width">Po maturze stwierdziłem, że chce robić coś ciekawego w życiu. Zatem
+                            uciekłem z
+                            rodzinnego
+                            miasta
+                            wprost
+                            do
+                            Szczecina.
+                            Zgadza się - <i>chciałem być <b class="container--underline">maryanrzem</b>, mieć tatuaże
+                                itd...</i>
+                            Podróżowanie,
+                            przygody, wiadomo piękna
+                            wizja dosyć ciężkiej pracy. <br>
+                            <button class="button js-buttonSeaman">Znika marynarz</button>
+                        </p>
+
+                        <img class="photoSeaman" src="images/1663090117114.jpg" alt="marynarzem">
+                    </div>
+                </div>
+                <div class="container--purpleBreak">
+                    <p>Ostatecznie uciekłem z Akademii Morskiej.</p>
+                </div>
+            </article>
+            <article id="O-mnie-aktualnie">
+                <div class="container">
+                    <h3>Ucieczka zawiodła mnie do Poznania...</h3>
+                    <p>...gdzie udało mi się zostać <b>inżynierem Geodezji i Kartografii</b>, a później
+                        <b>magistrem
+                            Gospodarki
+                            Przestrzennej.</b>
+                        Aktualnie jest to też moje miejsce zamieszkania i pracy. Pracuje w zawodzie, w
+                        niewielkim
+                        przedsiębiorstwie geodezyjnym.<br>
+                        Wszystko było w porządku, jednak w ostatnim czasie czuję pewnego rodzaju zrezygnowanie i
+                        wypalenie...<br>
+                        Postanowiłem zatem spróbować swoich sił w <span class="container--underline">Frontendzie</span>
+                        i tutaj pojawia się <strong class="container--underline">YouCode</strong>
+                    </p>
+                </div>
+            </article>
+        </section>
+        <section id="zabawy-JS">
+            <h2>Co dalej? <em class="js-check">Sprawdźmy to! </em>
+                - klik <br> "Czyli zabawy z JSem"
+            </h2>
+
+            <img class="photoSurveyor" src="images/Fota2.jpeg" alt="geodetą">
+            <p><button class="button js-buttonSurveyor">Znika geodeta</button></p>
+            <img class="photoProgrammer js-hide" src="images/workation.jpg" alt="programistą">
+            <p><button class="js-buttonProgrammer button">W końcu będę ...</button></p>
+            <p class="js-changeJob">Marynarzem</p>
+
+            <h2>Moja pasja - góry</h2>
+            <p>Uwielbiam chodzić po górach. Udało mi się nawet zdobyć <b>Koronę Gór Polski</b>.<br>
+                W poniższej tabeli przedstawię, moim zdaniem, najciekawsze z nich </p>
+        </section>
+        <section id="tabela-góry">
+            <div class="container__table">
+                <table class="table">
+                    <caption class="table__caption">Najciekawsze góry z Korony Gór Polski</caption>
+                    <tbody>
+                        <tr class="table__row">
+                            <th class="table__cell table__header" scope="col">Nazwa góry</th>
+                            <th class="table__cell table__header" scope="col">Łańcuch górski </th>
+                            <th class="table__cell table__header" scope="col">Pasmo górskie</th>
+                            <th class="table__cell table__header" scope="col">Wysokość (m n.p.m.)</th>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr class="table__row">
+                            <th class="table__cell table__row--Header" scope="row">Rysy</th>
+                            <td class="table__cell" rowspan="3">Karpaty</td>
+                            <td class="table__cell">Tatry</td>
+                            <td class="table__cell">2499</td>
+                        </tr>
+                        <tr class="table__row">
+                            <th class="table__cell table__row--Header" scope="row">Babia Góra</th>
+                            <td class="table__cell">Beskid Żywiecki</td>
+                            <td class="table__cell">1725</td>
+                        </tr>
+                        <tr class="table__row">
+                            <th class="table__cell table__row--Header" scope="row">Tarnica</th>
+                            <td class="table__cell">Bieszczady</td>
+                            <td class="table__cell">1346</td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr class="table__row">
+                            <th class="table__cell table__row--Header" scope="row">Śnieżka</th>
+                            <td class="table__cell" rowspan="3">Sudety</td>
+                            <td class="table__cell">Karkonosze</td>
+                            <td class="table__cell">1602</td>
+                        </tr>
+                        <tr class="table__row">
+                            <th class="table__cell table__row--Header" scope="row">Waligóra</th>
+                            <td class="table__cell">Góry Kamienne</td>
+                            <td class="table__cell">936</td>
+                        </tr>
+                        <tr class="table__row">
+                            <th class="table__cell table__row--Header" scope="row">Szczeliniec Wielki</th>
+                            <td class="table__cell">Góry Stołowe</td>
+                            <td class="table__cell">919</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!-- this is my table -->
+        </section>
+    </main>
+    <footer class="footer"> Copyright by M. Kiałka, 2022 </footer>
+</body>
+
+</html>
